@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-anouar-service
+spec:
+  selector:
+    app: app-anouar
+  ports:
+  - port: 80
+    targetPort: 80
